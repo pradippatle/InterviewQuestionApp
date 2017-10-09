@@ -1,10 +1,10 @@
-package com.pradipatle.androidkt;
+package com.pradipatle.androidkt.Java;
 
 /**
  * Created by Aeon-02 on 03-04-2017.
  */
 
-public class ModelData {
+public class JavaModel {
     public String serial_num;
     public String question;
     public String answer;

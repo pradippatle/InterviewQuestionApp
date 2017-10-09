@@ -1,0 +1,134 @@
+{
+  "data": [
+   /* {
+      "sr_number": "*",
+      "question": "-- Basic Q & A --",
+      "answer": ""
+    },*/
+    {
+      "sr_number": "1",
+      "question": "What is the most important feature of Java?",
+      "answer": "Java is a platform independent language."
+    },
+    {
+      "sr_number": "2",
+      "question": "What do you mean by platform independence?",
+      "answer": "Platform independence means that we can write and compile the java code in one platform (eg Windows) and can execute the class in any other supported platform eg (Linux,Solaris,etc)."
+    },
+    {
+      "sr_number": "3",
+      "question": "What is a JVM?",
+      "answer": "JVM is Java Virtual Machine which is a run time environment for the compiled java class files."
+    },
+    {
+      "sr_number": "4",
+      "question": "What is the difference between a JDK and a JVM?",
+      "answer": "JDK is Java Development Kit which is for development purpose and it includes execution environment also. But JVM is purely a run time environment and hence you will not be able to compile your source files using a JVM."
+    },
+    {
+      "sr_number": "5",
+      "question": "What is classloader?",
+      "answer": "The classloader is a subsystem of JVM that is used to load classes and interfaces.There are many types of classloaders e.g. Bootstrap classloader, Extension classloader, System classloader, Plugin classloader etc."
+    },
+    {
+      "sr_number": "6",
+      "question": "What is a pointer and does Java support pointers?",
+      "answer": "Pointer is a reference handle to a memory location. Improper handling of pointers leads to memory leaks and reliability issues hence Java doesn't support the usage of pointers."
+    },
+    {
+      "sr_number": "7",
+      "question": "Which class is the superclass of all classes?",
+      "answer": "java.lang.Object is the root class for all the java classes and we don’t need to extend it."
+    },
+    {
+      "sr_number": "8",
+      "question": "Does Java support multiple inheritance?",
+      "answer": "Java doesn’t support multiple inheritance in classes because of “Diamond Problem.\n\nHowever multiple inheritance is supported in interfaces. An interface can extend multiple interfaces because they just declare the methods and implementation will be present in the implementing class. So there is no issue of diamond problem with interfaces."
+    },
+    {
+      "sr_number": "9",
+      "question": "Is Java a pure object oriented language?",
+      "answer": "Java uses primitive data types and hence is not a pure object oriented language."
+    },
+    {
+      "sr_number": "10",
+      "question": "What is difference between Path and Classpath?",
+      "answer": "Path and Classpath are operating system level environment variales. Path is used define where the system can find the executables(.exe) files and Classpath is specific to java and used by java executables to locate class files. We can provide the classpath location while running java application and it can be a directory, ZIP files, JAR files etc."
+    },
+    {
+      "sr_number": "11",
+      "question": "What is the importance of main method in Java?",
+      "answer": "main() method is the entry point of any standalone java application. The syntax of main method is public static void main(String args[]).\n\nmain method is public and static so that java can access it without initializing the class. The input parameter is an array of String through which we can pass runtime arguments to the java program. "
+    },
+    {
+      "sr_number": "12",
+      "question": "Why Java doesn’t support multiple inheritance?",
+      "answer": "Localvaraiablesarethosewhicharedeclaredwithinablockofcodelikemethods.Localvariablesshouldbeinitialisedbeforeaccessingthem."
+    },
+    {
+      "sr_number": "13",
+      "question": "Why Java is not pure Object Oriented language?",
+      "answer": "Java is not said to be pure object oriented because it support primitive types such as int, byte, short, long etc. I believe it brings simplicity to the language while writing our code. Obviously java could have wrapper objects for the primitive types but just for the representation, they would not have provided any benefit.\n\nAs we know, for all the primitive types we have wrapper classes such as Integer, Long etc that provides some additional methods."
+    },
+    {
+      "sr_number": "14",
+      "question": "What is the importance of main method in Java??",
+      "answer": "main() method is the entry point of any standalone java application. The syntax of main method is public static void main(String args[]).\n\nmain method is public and static so that java can access it without initializing the class. The input parameter is an array of String through which we can pass runtime arguments to the java program. "
+    },
+    {
+      "sr_number": "15",
+      "question": "What is overloading and overriding in java?",
+      "answer": "When we have more than one method with same name in a single class but the arguments are different, then it is called as method overloading.\n\nOverriding concept comes in picture with inheritance when we have two methods with same signature, one in parent class and another in child class. We can use @Override annotation in the child class overridden method to make sure if parent class method is changed, so as child class."
+    },
+    {
+      "sr_number": "16",
+      "question": "Can we overload main method?",
+      "answer": "Yes, we can have multiple methods with name “main” in a single class. However if we run the class, java runtime environment will look for main method with syntax as public static void main(String args[])."
+    },
+    {
+      "sr_number": "17",
+      "question": "Can we have multiple public classes in a java source file?",
+      "answer": "We can’t have more than one public class in a single java source file. A single source file can have multiple classes that are not public."
+    },
+    {
+      "sr_number": "18",
+      "question": "What is Java Package and which package is imported by default?",
+      "answer": "Java package is the mechanism to organize the java classes by grouping them. The grouping logic can be based on functionality or modules based. A java class fully classified name contains package and class name. For example, java.lang.Object is the fully classified name of Object class that is part of java.lang package.\n\njava.lang package is imported by default and we don’t need to import any class from this package explicitly."
+    },
+    {
+      "sr_number": "19",
+      "question": "What are access modifiers?",
+      "answer": "Java provides access control through public, private and protected access modifier keywords. When none of these are used, it’s called default access modifier. A java class can only have public or default access modifier. "
+    },
+    {
+      "sr_number": "20",
+      "question": "What is final keyword?",
+      "answer": "final keyword is used with Class to make sure no other class can extend it, for example String class is final and we can’t extend it. We can use final keyword with methods to make sure child classes can’t override it.\n\nfinal keyword can be used with variables to make sure that it can be assigned only once. However the state of the variable can be changed, for example we can assign a final variable to an object only once but the object variables can change later on.  Java interface variables are by default final and static."
+    },
+    {
+      "sr_number": "21",
+      "question": "What is static keyword?",
+      "answer": "static keyword can be used with class level variables to make it global i.e all the objects will share the same variable.\n\nstatic keyword can be used with methods also. A static method can access only static variables of class and invoke only static methods of the class."
+    },
+    {
+      "sr_number": "22",
+      "question": "How is final different from finally and finalize()?",
+      "answer": "final is a modifier which can be applied to a class or a method or a variable. final class can't be inherited, final method can't be overridden and final variable can't be changed.\n\nfinally is an exception handling code section which gets executed whether an exception is raised or not by the try block code segment.\n\nfinalize() is a method of Object class which will be executed by the JVM just before garbage collecting object to give a final chance for resource releasing activity."
+    },
+    {
+      "sr_number": "23",
+      "question": "Can we declare a class as static?",
+      "answer": "We can’t declare a top-level class as static however an inner class can be declared as static. If inner class is declared as static, it’s called static nested class. Static nested class is same as any other top-level class and is nested for only packaging convenience."
+    },
+    {
+      "sr_number": "24",
+      "question": "What is static block?",
+      "answer": "Java static block is the group of statements that gets executed when the class is loaded into memory by Java ClassLoader. It is used to initialize static variables of the class. Mostly it’s used to create static resources when class is loaded."
+    },
+    {
+      "sr_number": "25",
+      "question": "What is synchronization?",
+      "answer": "Synchronization is the mechanism that ensures that only one thread is accessed the resources at a time."
+    }
+  ]
+}

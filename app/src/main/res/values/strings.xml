@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Android KT</string>
+    <string name="app_name">Interview Q&amp;A</string>
+
+    <string name="android">Android</string>
+    <string name="html">HTML</string>
+    <string name="sap">SAP ABAP</string>
+    <string name="java">JAVA</string>
+
 </resources>

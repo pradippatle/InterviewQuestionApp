@@ -1,4 +1,4 @@
-package com.pradipatle.androidkt;
+package com.pradipatle.androidkt.Java;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,18 +7,20 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.pradipatle.androidkt.R;
+
 import java.util.ArrayList;
 
 /**
  * Created by Aeon-02 on 03-04-2017.
  */
 
-public class AdapterData extends BaseAdapter {
+public class JavaAdapter extends BaseAdapter {
 
-    ArrayList<ModelData> dataArrayList;
+    ArrayList<JavaModel> dataArrayList;
     Context context;
 
-    public AdapterData(ArrayList<ModelData> dataList, Context context) {
+    public JavaAdapter(ArrayList<JavaModel> dataList, Context context) {
         this.dataArrayList = dataList;
         this.context = context;
     }
@@ -43,7 +45,7 @@ public class AdapterData extends BaseAdapter {
         LayoutInflater inflater;
         if (convertView == null) {
             inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.row_data, parent, false);
+            convertView = inflater.inflate(R.layout.list_row, parent, false);
         }
         TextView question = (TextView) convertView.findViewById(R.id.id_question);
         TextView answer = (TextView) convertView.findViewById(R.id.id_answer);

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "567553792638",
+    "firebase_url": "https://qaapp-fb17e.firebaseio.com",
+    "project_id": "qaapp-fb17e",
+    "storage_bucket": "qaapp-fb17e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567553792638:android:e4fa6c08c1835a37",
+        "android_client_info": {
+          "package_name": "com.pradipatle.androidkt.androidkt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567553792638-l86jd2o4vprris4fd0gh15s0e5omsuc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pradipatle.androidkt.androidkt",
+            "certificate_hash": "2d57b3ef697f418d5749677c2dbcb5778f886d8c"
+          }
+        },
+        {
+          "client_id": "567553792638-q6ikefkoghs242bapks8c443hevaf4nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTP5rsW5aGBTHAcFXOS_1ljel-dZG9_ms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567553792638-q6ikefkoghs242bapks8c443hevaf4nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
